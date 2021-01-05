@@ -1,0 +1,203 @@
+
+%% BUICS THESIS STYLE for LaTeX2e
+%%
+%% badwanpk, Tue March 10 18:53:15 2015
+%%
+%% PLEASE send improvements to badwanpk at bui dot edu dot pk
+%%
+%%========================================
+%% Commands: pdflatex tese
+%%           bibtex tese
+%%           makeindex tese (only if creating an index) 
+%%           pdflatex tese
+%%========================================
+
+\documentclass[11pt,a4paper,twoside,openright]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage[portuges]{babel}
+\usepackage{fancyvrb}
+\usepackage{multirow}
+%\usepackage{epstopdf}
+\usepackage{rotating}
+\usepackage{slashbox,pict2e}
+\usepackage{soul}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{makeidx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{wrapfig}
+
+%% For the final version, comment next line and uncomment the second line
+%\usepackage[provisional,alpharefs]{buics}
+\usepackage[numericrefs]{buics} %alpharefs
+\usepackage[utf8]{inputenc}
+
+ %PDF properties 
+\hypersetup{
+pdftitle = {Archived Database Disseminator},
+pdfauthor = {Shaheer farooq Aziz \& Hafiz Muhammad},
+		pdfsubject={Subject...},
+    pdfcreator={MiKTex 2.9},
+    pdfproducer={MiKTex 2.9},
+    pdfkeywords = {Keywords},
+    %pdfstartview={FitH},%fits the width of the page to the window
+		pdfinfo={
+    AuthorNameEnrollment1={Shaheer farooq Aziz (01-134132-172)},
+		AuthorNameEnrollment2={Hafiz Muhammad Ahmad (01-134132-048)},%%uncomment this line if 2 authors
+		Supervisor={Dr. Muzammil)},
+    Session={Fall 2016},%%Session in which the defense was arranged (Spring / Fall 20XX)
+		InternalExaminer={Dr. ABC (Assistant Processor)},
+		ExternalExaminer={Dr. XYZ (Assistant Processor)},
+		ProjectCoordinator={Dr. Arif Ur Rahman (Assistant Processor)},
+		HOD={Dr. Faisal Bashir (Associate Processor)},
+		DefenseDate={\today},
+  }
+}
+
+%% Options: 
+%% - english: titles, etc in english
+%% - provisional: the thesis has not been approved yet
+%% - print: links are not shown (for paper versions)
+%% - alpharefs: bibliography references are alphabetic
+%% - numericrefs: bibliography references are numbered (in order of citation)
+%% ( by default: author-date format of the ``natbib'' package is used 
+
+
+%% Provide a version number in order to keep track of
+%% thesis versions (it will printed in the footer of most pages)
+
+\version{v1.12.2015}
+
+%% uncomment in the final version in order to make version footer disappear
+%\noversiontrue
+
+%% uncomment to create an index (at the end of the document)
+\makeindex 
+
+%%  path to the figures directory
+%%  TIP: use folder ``figures'' to keep all your figures
+\graphicspath{{figures/}}
+
+%%----------------------------------------
+%% TIP: if you want to define more macros, use an external file to
+%% keep them
+\include{mymacros}
+%%----------------------------------------
+
+%%========================================
+%% Start of document
+%%========================================
+\begin{document}
+
+%%----------------------------------------
+%% Information about the work
+%%----------------------------------------
+\title{MS/PhD Thesis Evaluation System }
+\author{{\sc Shaheer Farooq Aziz \& Hafiz Muhammad Ahmad }\\01-134132-172 \& 01-134132-048\\
+%{\sc Author's Name}\\Enrollment    %%%uncomment this line if there is a second author
+}
+
+
+\degree{\textbf{\Large{Bachelor of Science in Computer Science}}}
+
+%\degree{\emph{Thesis submitted to the Department of Computer Science, Bahria University, Islamabad\\for fulfillment of the requirements of Bachelors of Science in Computer Science degree.}}
+%% Date of submission
+
+\department{Department of Computer Science\\Bahria University, Islamabad}
+\thesisdate{June 2017}
+%\thesisdate{\Large{\textbf{September 2012}}}
+
+%% insert copyright text if used
+\copyrightnotice{Shaheer Farooq Aziz \& Hafiz Muhammad Ahmad, 2017}
+
+%% uncomment next line if necessary
+\supervisor{Supervisor}{Dr. Muhammad Muzammal}{}% {(Title)}
+%\supervisor{Co-Supervisor}{Co-Supervisor name}{}%{(Title)}
+
+% uncomment committee stuff in the final version if used
+
+\certificatetext{We accept the work contained in the report titled ``MS/PhD Thesis Evaluation System'', written by Shaheer Farooq Aziz and Hafiz Muhammad Ahmad as a confirmation to the required standard for the partial fulfillment of the degree of Bachelor of Science in Computer Science.}
+
+\committeetext{Approved by \ldots:}
+
+\committeemember{Supervisor}{Dr. Muhammad Muzammal }{(Associate Professor)}
+\signature
+\committeemember{Internal Examiner}{Name of the Internal Examiner}{(Assistant Professor)}
+\signature
+\committeemember{External Examiner}{Name of the External Examiner}{(Assistant Professor)}
+\signature
+\committeemember{Project Coordinator}{Dr. Arif Ur Rahman}{(Assistant Professor)}
+\signature
+\committeemember{Head of the Department}{Dr. Faisal Bashir}{(Associate Professor)}
+\signature
+\committeedate{June 21$^{st}$, 2017}
+
+%% specify cover logo (in folder ``figures'')
+\logo{BUI-Logo}
+
+%%----------------------------------------
+%% Cover page(s)
+%%----------------------------------------
+\maketitle
+%% uncomment next line in the final version if used
+\committeepage
+
+
+%% Preliminary materials
+\StartPrelim
+\begin{singlespace}
+  \include{abstract} % the abstract
+  \include{acknows}  % the acknowledgments
+  \include{quote}    % initial quotation if desired
+  \cleardoublepage
+  \pdfbookmark[0]{Table of Contents}{contents}
+  \tableofcontents
+  \cleardoublepage
+  \pdfbookmark[0]{List of Figures}{figures}
+  \listoffigures
+  \cleardoublepage
+  \pdfbookmark[0]{List of Tables}{tables}
+  \listoftables
+  \include{abbrevs}  % the list of abbreviations used
+\end{singlespace}
+
+%%----------------------------------------
+%% Body
+%%----------------------------------------
+\StartBody
+
+%% TIP: use a separate  file for each
+\include{chapter1} 
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+
+%%\include{chapter8}
+%%\printindex
+%% comment next 2 commands if numbered appendixes not used
+\appendix
+\include{appendix1}
+%%\include{appendix2}
+
+%%----------------------------------------
+%% Final materials
+%%----------------------------------------
+
+\begin{singlespace}
+  %% Bibliography
+  %% comment the next command if BibTeX file not used
+  %% bibliography is in ``references.bib''
+  \PrintBib{references}
+  Essays, UK. (November 2013). Literature Review About Management Information Systems Management Essay?utm_expid=309629 42.KXZ6CCs5RRCgVDyVYVWeng.0&utm_referrer=https%3A%2F%2Fwww.google.com.pk%2F. Retrieved from https://www.ukessays.com/essays/management/literature-review-about-management-information-systems-management-essay.php?utm_expid=309629-42.KXZ6CCs5RRCgVDyVYVWeng.0&utm_referrer=https%3A%2F%2Fwww.google.com.pk%2F?cref=1
+
+  %% Index
+  %% uncomment next command if index is required
+  %% don't forget to run ``makeindex tese'' command
+  \PrintIndex
+\end{singlespace}
+
+\end{document}

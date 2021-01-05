@@ -1,0 +1,92 @@
+% Encoding: windows-1252
+
+@Article{Cutler2004,
+  author    = {Cutler David},
+  title     = {Behavioral Health Intervention},
+  year      = {2004},
+  language  = {English},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK25527/#__NBK25527_dtls_},
+  keywords  = {rank5},
+  owner     = {Bilal Arshad},
+  timestamp = {2017.01.12},
+}
+
+
+@Article{Wenger1996,
+  Title                    = {Ageing and Society. Social Isolation and Loneliness in Old Age},
+  
+  Author                   = {Wenger Clare, Davies},
+  Language                 = {English},
+
+  Year                     = {1996},
+
+  Owner                    = {Bilal Arshad},
+  Timestamp                = {2017.01.12}
+}
+
+
+@Article{dbm10,
+  Title                    = {{Using SIARD for Database Migration}},
+  Author                   = {Chris Prom},
+  Year                     = {2010},
+
+  Owner                    = {Naeem Tarar},
+  Timestamp                = {2016.09.29}
+}
+
+@InBook{Rahman2010,
+  Title                    = {Model Migration Approach for Database Preservation},
+  Author                   = {Rahman, Arif Ur and David, Gabriel and Ribeiro, Cristina},
+  Editor                   = {Chowdhury, Gobinda
+and Koo, Chris
+and Hunter, Jane},
+  Pages                    = {81--90},
+  Publisher                = {Springer Berlin Heidelberg, 12th International Conference on Asia-Pacific Digital Libraries, ICADL 2010, Gold Coast, Australia, June 21-25, 2010. Proceedings},
+  Year                     = {2010},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Booktitle                = {The Role of Digital Libraries in a Time of Global Change: 12th International Conference on Asia-Pacific Digital Libraries, ICADL 2010, Gold Coast, Australia, June 21-25, 2010. Proceedings},
+  Doi                      = {10.1007/978-3-642-13654-2_10},
+  ISBN                     = {978-3-642-13654-2},
+  Owner                    = {Naeem Tarar},
+  Timestamp                = {2016.09.21},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-13654-2_10}
+}
+
+@InProceedings{rdbp07,
+  Title                    = {{Relational Database Preservation through XML modelling}},
+  Author                   = {Jose Carlos Ramalho and Miguel Ferreira and Luis Faria and Rui Castro},
+  Booktitle                = {Extreem Markup Languages},
+  Year                     = {2007},
+
+  Owner                    = {Naeem Tarar},
+  Timestamp                = {2016.09.29}
+}
+
+@Electronic{York2012,
+  Title                    = {Digital Preservation Coalition (2008)},
+
+  Address                  = {University Gardens, University of Glasgow, G12 8QQ},
+  Author                   = {York},
+  HowPublished             = {ntroduction: Definitions and Concepts Digital Preservation Handbook.},
+  Month                    = {February},
+  Note                     = {Digital preservation refers to the series of managed activities necessary to ensure continued access to digital information for as long as necessary.},
+  Url                      = {http://handbook.dpconline.org/introduction/},
+  Year                     = {2012},
+
+  Owner                    = {Naeem Tarar},
+  Timestamp                = {2016.11.23}
+}
+
+@Electronic{code,
+  Title                    = {Knowledge markets},
+  Language                 = {English},
+  Url                      = {http://stackoverflow.com/},
+  Year                     = {2008},
+
+  Owner                    = {Naeem Tarar},
+  Timestamp                = {2016.11.12}
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

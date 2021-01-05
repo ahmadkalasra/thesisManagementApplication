@@ -1,0 +1,11 @@
+c:\users\farooq\documents\visual studio 2010\Projects\Forms1\Forms1\bin\Forms1.dll
+c:\users\farooq\documents\visual studio 2010\Projects\Forms1\Forms1\bin\Forms1.pdb
+c:\users\farooq\documents\visual studio 2010\Projects\Forms1\Forms1\obj\Debug\Forms1.dll
+c:\users\farooq\documents\visual studio 2010\Projects\Forms1\Forms1\obj\Debug\Forms1.pdb
+C:\Users\farooq\documents\visual studio 2010\Projects\Forms1\Forms1\obj\Debug\Forms1.csprojResolveAssemblyReference.cache
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\bin\Forms1.dll.config
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\bin\Forms1.dll
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\bin\Forms1.pdb
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\obj\Debug\Forms1.csprojResolveAssemblyReference.cache
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\obj\Debug\Forms1.dll
+F:\shaheer fyp\forms\MS-10\Forms1\Forms1\obj\Debug\Forms1.pdb

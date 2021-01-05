@@ -1,0 +1,53 @@
+ID="{71666DDA-3981-11D5-8044-0050BAACF786}"
+Document=ThisWorkbook/&H00000000
+Package={AC9F2F90-E877-11CE-9F68-00AA00574A4F}
+Document=Working/&H00000000
+Class=CController
+Class=CModel
+Module=Test
+BaseClass=frmAbout
+Module=Conversion
+Class=CVolatileStorage
+Class=CSheetStorage
+Module=Memento
+Module=Factory
+Class=IModel
+Class=IController
+Class=IStorage
+Class=IControllerEvents
+Class=IModelEvents
+Class=IStorageEvents
+Class=IView
+Module=Tools
+BaseClass=frmConvert
+Name="VBAProject"
+HelpContextID="0"
+VersionCompatible32="393222000"
+CMG="C3C175B43CB83CB83CB83CB8"
+DPB="868430F9307FF280F280F2"
+GC="494BFF00000000FF"
+
+[Host Extender Info]
+&H00000001={3832D640-CF90-11CF-8E43-00A0C911005A};VBE;&H00000000
+
+[Workspace]
+ThisWorkbook=25, 25, 1015, 589, Z
+Working=0, 0, 0, 0, C
+CController=0, 0, 0, 0, C
+CModel=0, 0, 0, 0, C
+Test=0, 0, 0, 0, C
+frmAbout=0, 0, 0, 0, C, 110, 110, 1062, 553, C
+Conversion=0, 0, 0, 0, C
+CVolatileStorage=0, 0, 0, 0, C
+CSheetStorage=0, 0, 0, 0, C
+Memento=0, 0, 0, 0, C
+Factory=0, 0, 0, 0, C
+IModel=0, 0, 0, 0, C
+IController=0, 0, 0, 0, C
+IStorage=0, 0, 0, 0, C
+IControllerEvents=0, 0, 0, 0, C
+IModelEvents=0, 0, 0, 0, C
+IStorageEvents=0, 0, 0, 0, C
+IView=0, 0, 0, 0, C
+Tools=0, 0, 0, 0, C
+frmConvert=0, 0, 0, 0, C, 132, 132, 1084, 575, C

@@ -1,0 +1,101 @@
+﻿.container
+{
+    padding-top:30px;
+    
+    margin:0;
+}
+
+#open
+{
+    background-color:#7a8c74;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+}
+#open:hover
+{
+    background-color: #555;
+    color:#fff;
+}
+.title
+{
+    background-color:black;
+    color:#fff;
+}
+#brand
+{
+    font-size:24px;
+    font-family: Cambria;
+    padding-left:10px;
+}
+#brand:hover
+{
+    color:#dee2dc;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar:hover
+{
+    color:white;
+}
+.navbar-default .navbar-toggle:hover
+{
+    background-color:transparent;
+}
+.dropdown-default .dropdown-toggle.dropdown-menu{
+    padding:0px;
+    margin:0px;
+    height:10px;
+}
+#dropd
+{
+    color:#fff;
+    font-size:12px;
+    
+}
+#dropd:hover
+{
+    color:#fff;
+    background-color:#555;
+}
+#dropd:focus
+{
+    color:#fff;
+    background-color:#555;
+}
+
+#profpic
+{
+    text-align:center; color:white;
+}
+#profpica
+{
+    color:#fff;
+}
+#profpica:hover
+{
+    background-color:#7a8c74;
+}
+.dropbut
+{
+    color:white;
+}
+#dropbut
+{
+    color:white;
+    background-color:#616161;
+    width:100%;
+}
+#dropbut:hover
+{
+    background-color:#555;
+}
+@media (max-width: 767px)
+{
+   .navbar-collapse
+   {
+       border-color:black;
+       background-color:#616161;
+   }
+}

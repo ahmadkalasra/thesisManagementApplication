@@ -1,0 +1,13 @@
+c:\users\farooq\documents\visual studio 2010\Projects\admin1\admin1\bin\admin1.dll
+c:\users\farooq\documents\visual studio 2010\Projects\admin1\admin1\bin\admin1.pdb
+c:\users\farooq\documents\visual studio 2010\Projects\admin1\admin1\obj\Debug\admin1.dll
+c:\users\farooq\documents\visual studio 2010\Projects\admin1\admin1\obj\Debug\admin1.pdb
+C:\Users\farooq\documents\visual studio 2010\Projects\admin1\admin1\obj\Debug\admin1.csprojResolveAssemblyReference.cache
+F:\shaheer fyp\admin1\admin1\bin\admin1.dll.config
+F:\shaheer fyp\admin1\admin1\bin\admin1.dll
+F:\shaheer fyp\admin1\admin1\bin\admin1.pdb
+F:\shaheer fyp\admin1\admin1\bin\Newtonsoft.Json.dll
+F:\shaheer fyp\admin1\admin1\bin\Newtonsoft.Json.xml
+F:\shaheer fyp\admin1\admin1\obj\Debug\admin1.csprojResolveAssemblyReference.cache
+F:\shaheer fyp\admin1\admin1\obj\Debug\admin1.dll
+F:\shaheer fyp\admin1\admin1\obj\Debug\admin1.pdb

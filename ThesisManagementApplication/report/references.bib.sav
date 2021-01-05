@@ -1,0 +1,27 @@
+% Encoding: windows-1252
+
+@Article{Cutler2004,
+  author    = {Cutler David},
+  title     = {Behavioral Health Intervention},
+  year      = {2004},
+  language  = {English},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK25527/#__NBK25527_dtls_},
+  keywords  = {rank5},
+  owner     = {Bilal Arshad},
+  timestamp = {2017.01.12},
+}
+
+
+@Article{Wenger1996,
+  Title                    = {Ageing and Society. Social Isolation and Loneliness in Old Age},
+  
+  Author                   = {Wenger Clare, Davies},
+  Language                 = {English},
+
+  Year                     = {1996},
+
+  Owner                    = {Bilal Arshad},
+  Timestamp                = {2017.01.12}
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
